@@ -33,9 +33,9 @@ if len(sys.argv)<4:
 python send-OP_RETURN.py <send-address> <send-amount> <metadata> <testnet (optional)>
 
 Examples:
-python send-OP_RETURN.py 149wHUMa41Xm2jnZtqgRx94uGbZD9kPXnS 0.001 'Hello, blockchain!'
-python send-OP_RETURN.py 149wHUMa41Xm2jnZtqgRx94uGbZD9kPXnS 0.001 48656c6c6f2c20626c6f636b636861696e21
-python send-OP_RETURN.py mzEJxCrdva57shpv62udriBBgMECmaPce4 0.001 'Hello, testnet blockchain!' 1'''
+python send-OP_RETURN.py RhyruDW7A6UU1KGvj4ziwxEXMmdGvU32ck 0.001 'Hello, blockchain!'
+python send-OP_RETURN.py RhyruDW7A6UU1KGvj4ziwxEXMmdGvU32ck 0.001 48656c6c6f2c20626c6f636b636861696e21
+python send-OP_RETURN.py mmVCLTkWuNv6KEFe4czRmRPqZsVhf7pZsd 0.001 'Hello, testnet blockchain!' 1'''
 	)
 
 dummy, send_address, send_amount, metadata = sys.argv[0:4]
